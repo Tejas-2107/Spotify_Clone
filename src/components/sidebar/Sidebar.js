@@ -8,6 +8,11 @@ import SearchIcon from "@mui/icons-material/Search";
 import PlayCircleFilledIcon from "@mui/icons-material/PlayCircleFilled";
 import LibraryMusicRoundedIcon from "@mui/icons-material/LibraryMusicRounded";
 import { useDataLayerValue } from "../../context/DataLayer";
+// import Box from '@mui/material/Box';
+// import Tab from '@mui/material/Tab';
+// import TabContext from '@mui/lab/TabContext';
+// import TabList from '@mui/lab/TabList';
+// import TabPanel from '@mui/lab/TabPanel';
 
 function Sidebar() {
   const [{ playlists }, dispatch] = useDataLayerValue();
